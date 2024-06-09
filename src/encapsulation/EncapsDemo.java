@@ -1,4 +1,4 @@
-package encaps;
+package encapsulation;
 
 //friend is accessing your usn and pwd, and changing it. This can be prevented by using private keyword in class you
 //or by using setters and getters

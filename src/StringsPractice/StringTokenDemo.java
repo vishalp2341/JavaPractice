@@ -1,4 +1,4 @@
-package string;
+package StringsPractice;
 import java.util.StringTokenizer;
 
 public class StringTokenDemo {

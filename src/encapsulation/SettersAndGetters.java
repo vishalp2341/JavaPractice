@@ -1,4 +1,4 @@
-package encaps;
+package encapsulation;
 
 class Car
 {

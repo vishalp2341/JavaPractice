@@ -1,4 +1,4 @@
-package string;
+package StringsPractice;
 import java.util.Scanner;
 public class StringPatternConvertor {
 	public static void main(String[] args) {
