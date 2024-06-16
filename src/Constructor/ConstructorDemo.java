@@ -9,9 +9,9 @@ class Demo
 	private int Cno;
 	
 public Demo() {
-		this.Cid = 1;
-		this.Cname = "vishal";
-		this.Cno = 9875322;
+		Cid = 1;
+		Cname = "vishal";
+		Cno = 9875322;
 	}
 	
 
