@@ -1,5 +1,6 @@
 package Daemon;
 
+//wrong implementation of daemon
 
 class demo extends Thread
 {
@@ -94,6 +95,10 @@ public class coach {
 		
 		d2.setDaemon(true);
 		d3.setDaemon(true);
+		
+		d1.setPriority(Thread.MAX_PRIORITY);
+		d2.setPriority(Thread.NORM_PRIORITY);
+		d3.setPriority(Thread.MIN_PRIORITY);
 		
 		d1.start();
 		d2.start();
