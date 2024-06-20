@@ -100,6 +100,8 @@ public class coach {
 		d2.setPriority(Thread.NORM_PRIORITY);
 		d3.setPriority(Thread.MIN_PRIORITY);
 		
+		
+		
 		d1.start();
 		d2.start();
 		d3.start();
