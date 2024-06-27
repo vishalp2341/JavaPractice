@@ -7,7 +7,7 @@ package methodOverloading;
 //2.order of parameters
 //	or
 //3.different data type of parameters
-//return type of the method has no effect on method overloading 
+//return type of the method has no effect on method overloading .
 
 class Add {
 
