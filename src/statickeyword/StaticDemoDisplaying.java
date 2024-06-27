@@ -1,7 +1,7 @@
 package statickeyword;
 
 //A demo of the execution order of static variables, static method, static block,
-//instance variables, instance block and instance method.
+// instance variables, instance block and instance method.
 
 class Launch
 {
