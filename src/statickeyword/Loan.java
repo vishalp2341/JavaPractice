@@ -3,7 +3,7 @@ package statickeyword;
 import java.util.Scanner;
 
 class Launcher {
-	int p, t;
+	float p, t;
 	float r = 15.2f;
 
 	public void acceptIP()
