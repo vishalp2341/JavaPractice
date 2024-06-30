@@ -2,38 +2,38 @@ package Inheritance;
 
 //Multilevel inheritance is permitted in java
 //the test5 class contains the add sub mul div methods by using inheritance 
-class test1 {
+class tesst1 {
 	void add() {
 		System.out.println(10 + 20);
 	}
 }
 
-class test2 extends test1 {
+class tesst2 extends tesst1 {
 	void sub() {
 		System.out.println(20 - 10);
 	}
 }
 
-class test3 extends test2 {
+class tesst3 extends tesst2 {
 	void mul() {
 		System.out.println(20 * 10);
 	}
 }
 
-class test4 extends test3 {
+class tesst4 extends tesst3 {
 	void div() {
 		System.out.println(20 / 10);
 	}
 }
 
-class test5 extends test4 {
+class tesst5 extends tesst4 {
 
 }
 
 public class InheritanceRule2 {
 
 	public static void main(String[] args) {
-		test5 t = new test5();
+		tesst5 t = new tesst5();
 		t.add();
 		t.sub();
 		t.mul();
