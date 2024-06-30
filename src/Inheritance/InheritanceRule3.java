@@ -1,6 +1,7 @@
 package Inheritance;
 //Multiple inheritance is not allowed in java
 //one class cannot extend from 2 parent classes as it creates ambiguity
+//this is called the diamond shaped problem
 
 
 class test{
