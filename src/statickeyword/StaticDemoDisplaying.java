@@ -5,20 +5,24 @@ package statickeyword;
 
 class Launch
 {
-	static int x , y;
+	static int  a , b;
+	
+	static
+	{
+		System.out.println("static block");
+		a = 10;
+		b = 20;
+	}
 	
 	static void fun1()
 	{
 		System.out.println("static method");
 	}
 	
-	static
-	{
-		System.out.println("static block");
-	}
 	
 	
-	int a , b;
+	
+	int x , y;
 	
 	{
 		System.out.println("instance block");
@@ -33,8 +37,8 @@ class Launch
 	Launch()
 	{
 		System.out.println("Constructor");
-		a=10 ;
-		b=20;
+		x=30 ;
+		y=40;
 	}
 }
 
