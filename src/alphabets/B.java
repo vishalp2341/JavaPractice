@@ -1,5 +1,6 @@
 package alphabets;
 import java.util.Scanner;
+//printing B
 public class B {
 	 
 	    public static void main(String[] args) {
