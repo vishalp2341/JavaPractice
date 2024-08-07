@@ -22,7 +22,8 @@ class OverAgeException extends Exception
 
 
 class applicant
-{ private int age;
+{ 
+	private int age;
 	void input()
 	{
 		Scanner scan = new Scanner(System.in);
